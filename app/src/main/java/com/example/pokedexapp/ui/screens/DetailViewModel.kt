@@ -18,8 +18,8 @@ data class PokemonDetails(
 fun Pokemon.toPokemonDetails(): PokemonDetails {
     return PokemonDetails(
         name = name,
-        frontDefault = sprites.frontDefault,
-        frontShiny = sprites.frontShiny,
+        frontDefault = sprites.front_default,
+        frontShiny = sprites.front_shiny,
         types = types.map { it.type.name }
     )
 }

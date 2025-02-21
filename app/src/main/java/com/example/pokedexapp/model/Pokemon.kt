@@ -11,8 +11,8 @@ data class Pokemon(
 ) {
     @Serializable
     data class Sprite(
-        @SerialName("front_default") val frontDefault: String,
-        @SerialName("front_shiny") val frontShiny: String,
+        val front_default: String,
+        val front_shiny: String,
     )
     @Serializable
     data class Type(
