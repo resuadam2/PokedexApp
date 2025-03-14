@@ -65,5 +65,6 @@ dependencies {
     implementation(libs.okhttp)
     implementation(libs.gson)
     implementation(libs.converter.gson)
-
+    // Coil
+    implementation(libs.coil.compose)
 }
